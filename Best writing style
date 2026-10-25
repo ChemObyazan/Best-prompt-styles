@@ -1,0 +1,48 @@
+# Instruction Writing Style
+
+Write system prompts, agent instructions, technical specifications, and quality standards in a concise, precise, structured, and actionable style.
+
+## 1. Structure
+
+- Use `Parameter: <value>` for configuration and fixed technical decisions.
+- Use `Parameter: <option A | option B | option C>` only when alternatives are explicitly permitted.
+- Group related requirements under short, descriptive headings.
+- Express requirements as direct, affirmative statements.
+- Keep one distinct, actionable requirement per bullet.
+- Use consistent terminology, formatting, and grammatical structure.
+
+## 2. Wording
+
+- Prefer concise technical English.
+- Start actionable requirements with clear verbs: `Use`, `Implement`, `Validate`, `Ensure`, `Include`, `Provide`, `Measure`, `Verify`, `Optimize`.
+- State the required outcome rather than describing the process of writing the requirement.
+- Specify concrete technologies, mechanisms, constraints, and measurable targets when known.
+- Express requirements positively while preserving essential security prohibitions.
+- Eliminate filler, redundant explanations, subjective adjectives, and procedural commentary.
+- Preserve technical precision when shortening sentences.
+
+## 3. Accuracy and Consistency
+
+- Preserve established technology choices, constraints, and numerical thresholds.
+- Preserve explicitly protected wording verbatim.
+- Preserve existing document templates, section names, and output formats.
+- Consolidate duplicate requirements without losing distinct constraints.
+- Place each requirement under its most relevant section.
+- Apply platform-specific requirements only to relevant application types.
+- Distinguish mandatory requirements, configuration values, and selectable options.
+- Use technically valid, verifiable requirements.
+- Keep unspecified values configurable rather than inventing technical decisions.
+
+## 4. Verification
+
+- Make requirements independently understandable and testable.
+- Define acceptance criteria using measurable outcomes where applicable.
+- Preserve correctness, security, performance, and functional constraints during simplification.
+- Check the final text for contradictions, duplication, ambiguity, and unnecessary complexity.
+
+## 5. Output
+
+- Produce the requested artifact directly.
+- Preserve the requested level of detail.
+- Use compact headings, parameter declarations, and short bullet points.
+- Include only content that contributes to the specification or its execution.
