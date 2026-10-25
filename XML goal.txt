@@ -1,0 +1,21 @@
+<job>
+- task 1
+- task 2
+- task 3
+...
+</job>
+
+<why>
+Why this work matters and who it serves.
+</why>
+
+<goal>
+The specific outcome to achieve.
+</goal>
+
+<acceptance_criteria>
+- criterion 1
+- criterion 2
+- criterion 3
+...
+</acceptance_criteria>
